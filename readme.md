@@ -1,6 +1,7 @@
-1. restore data using dump(else you can run dataimport script)
-3. star server with npm start command
-2. create user with following api"
+1.  restore data using dump(else you can run dataimport script as well)
+2.  star server with npm start command
+3.  create user with following api"
+
 http://localhost:3002/api/v1/battleapis/setup/user
 
 body : {
@@ -9,7 +10,7 @@ body : {
       "admin": true
     }
 
-3. authenticate with api given below
+4. authenticate with api given below
 http://localhost:3002/api/v1/battleapis/authenticate
 
 body : {
@@ -17,7 +18,8 @@ body : {
       password
   }
 
-4 . core api(use jwt token with header name x-access-token)
+5 . core api(use jwt token with header name x-access-token)
+  
   http://localhost:3002/api/v1/battleapis/core/battles
   http://localhost:3002/api/v1/battleapis/core/list
   http://localhost:3002/api/v1/battleapis/core/count
