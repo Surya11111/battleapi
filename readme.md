@@ -21,7 +21,11 @@ body : {
 5 . core api(use jwt token with header name x-access-token)
   
   http://localhost:3002/api/v1/battleapis/core/battles
+  
   http://localhost:3002/api/v1/battleapis/core/list
+  
   http://localhost:3002/api/v1/battleapis/core/count
+  
   http://localhost:3002/api/v1/battleapis/core/stats
+  
   http://localhost:3002/api/v1/battleapis/core/search
